@@ -1,0 +1,14 @@
+sudo nix-channel --add https://mirrors.tuna.tsinghua.edu.cn
+/nix-channels/nixos-unstable nixos
+
+sudo nix-channel --list
+
+sudo nix-channel --update
+
+sudo nixos-rebuild switch --option substituters "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
+
+~/.local/share/fonts/
+
+fc-cache -fv
+
+

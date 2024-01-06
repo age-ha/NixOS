@@ -1,0 +1,5 @@
+distrobox create archlinux --image 'docker.io/archlinux:latest' --home /home/ageha/arch
+
+/etc/containers/policy.json
+
+distrobox enter archlinux
